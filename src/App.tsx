@@ -1,19 +1,13 @@
-import React from 'react';
-import styled from 'styled-components';
+import { Wrapper } from './styled';
+import { Todos } from '@/src/components';
 
-const Back = styled.div`
-	position: relative;
-	width: 600px;
-	max-width: 100%;
-	margin: 20px auto;
-`;
-
-export function App() {
+export const App = () => {
 	return (
-		<Back>
-			<h1>Todos</h1>
-		</Back>
+		<Wrapper>
+			<h1>todos</h1>
+			<Todos />
+		</Wrapper>
 	);
-}
+};
 
 export default App;
