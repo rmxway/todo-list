@@ -3,6 +3,7 @@
 		"target": "esnext",
 		"lib": ["dom", "dom.iterable", "esnext"],
 		"allowJs": true,
+		"checkJs": true,
 		"skipLibCheck": true,
 		"esModuleInterop": true,
 		"allowSyntheticDefaultImports": true,
@@ -13,7 +14,7 @@
 		"isolatedModules": true,
 		"resolveJsonModule": true,
 		"noEmit": true,
-		"jsx": "react-jsx",
+		"jsx": "preserve",
 		"sourceMap": true,
 		"incremental": true,
 		"noFallthroughCasesInSwitch": true,
@@ -21,9 +22,9 @@
 		"paths": {
 			"@/*": ["./*"],
 			"@/src/*": ["./src/*"],
-            "@/public/*": ["./public/*"],
+			"@/public/*": ["./public/*"]
 		}
 	},
-	"include": ["./src/**/*", "**/*.ts", "**/*.tsx"],
+	"include": ["src/**/*", "**/*.ts", "**/*.tsx"],
 	"exclude": ["node_modules", "build", ".vscode", ".yarn"]
 }

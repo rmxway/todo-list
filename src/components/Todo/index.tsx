@@ -10,7 +10,7 @@ export interface TodoProps extends Pick<React.HTMLAttributes<HTMLElement>, 'onCh
 export const Todo: FC<TodoProps> = ({ id, message, completed, ...props }) => {
 	return (
 		<CheckboxTodo htmlFor={id.toString()}>
-            <i className='icon-check' />
+			<i className="icon-check" />
 			<input type="checkbox" id={id.toString()} name={id.toString()} checked={completed} {...props} />
 			<span>{message}</span>
 		</CheckboxTodo>

@@ -36,7 +36,7 @@ export const TodoWrapper = styled.div`
 	}
 
 	input[type='text'],
-	label {
+	& > label {
 		font-size: 1.8rem;
 		padding: 20px 5px 20px 70px;
 	}
