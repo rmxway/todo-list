@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.398d1d77.css",
-    "main.js": "/static/js/main.b772819a.js",
-    "static/media/icomoon.svg?ewobnk": "/static/media/icomoon.a906c10316095d4fb36e.svg",
-    "static/media/icomoon.eot?ewobnk": "/static/media/icomoon.9411c2f3efb8f9a14ddc.eot",
-    "static/media/icomoon.woff?ewobnk": "/static/media/icomoon.e91ed01d45e8a1333d6a.woff",
-    "static/media/icomoon.ttf?ewobnk": "/static/media/icomoon.29d87bca60c0fe181bc4.ttf",
-    "index.html": "/index.html",
-    "main.398d1d77.css.map": "/static/css/main.398d1d77.css.map",
-    "main.b772819a.js.map": "/static/js/main.b772819a.js.map"
+    "main.css": "/todo-list/static/css/main.dc52564b.css",
+    "main.js": "/todo-list/static/js/main.14807f67.js",
+    "static/media/icomoon.svg?ewobnk": "/todo-list/static/media/icomoon.a906c10316095d4fb36e.svg",
+    "static/media/icomoon.eot?ewobnk": "/todo-list/static/media/icomoon.9411c2f3efb8f9a14ddc.eot",
+    "static/media/icomoon.woff?ewobnk": "/todo-list/static/media/icomoon.e91ed01d45e8a1333d6a.woff",
+    "static/media/icomoon.ttf?ewobnk": "/todo-list/static/media/icomoon.29d87bca60c0fe181bc4.ttf",
+    "index.html": "/todo-list/index.html",
+    "main.dc52564b.css.map": "/todo-list/static/css/main.dc52564b.css.map",
+    "main.14807f67.js.map": "/todo-list/static/js/main.14807f67.js.map"
   },
   "entrypoints": [
-    "static/css/main.398d1d77.css",
-    "static/js/main.b772819a.js"
+    "static/css/main.dc52564b.css",
+    "static/js/main.14807f67.js"
   ]
 }
