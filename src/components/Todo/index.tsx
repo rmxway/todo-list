@@ -11,7 +11,15 @@ export const Todo: FC<TodoProps> = ({ id, message, completed, ...props }) => {
 	return (
 		<CheckboxTodo htmlFor={id.toString()}>
 			<i className="icon-check" />
-			<input type="checkbox" id={id.toString()} name={id.toString()} checked={completed} {...props} />
+			<input
+				type="checkbox"
+				id={id.toString()}
+				name={id.toString()}
+				checked={completed}
+				data-testid={id}
+				role="checkbox"
+				{...props}
+			/>
 			<span>{message}</span>
 		</CheckboxTodo>
 	);

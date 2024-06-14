@@ -1,14 +1,13 @@
 {
 	"compilerOptions": {
-		"target": "esnext",
+		"target": "ES6",
 		"lib": ["dom", "dom.iterable", "esnext"],
 		"allowJs": true,
-		"checkJs": true,
 		"skipLibCheck": true,
 		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
 		"strict": true,
 		"forceConsistentCasingInFileNames": true,
+		"allowImportingTsExtensions": true,
 		"module": "esnext",
 		"moduleResolution": "node",
 		"isolatedModules": true,
@@ -17,7 +16,6 @@
 		"jsx": "preserve",
 		"sourceMap": true,
 		"incremental": true,
-		"noFallthroughCasesInSwitch": true,
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["./*"],

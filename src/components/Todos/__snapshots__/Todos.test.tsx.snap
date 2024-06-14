@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todos Render is fine 1`] = `
+<div>
+  <div
+    class="sc-aYaIB cqaHUp"
+  >
+    <i
+      class="icon-angle-down"
+    />
+    <input
+      data-testid="main-input"
+      placeholder="What needs to be done?"
+      type="text"
+    />
+    <label
+      class="sc-gEvDqW hZyAII"
+      for="1"
+    >
+      <i
+        class="icon-check"
+      />
+      <input
+        data-testid="1"
+        id="1"
+        name="1"
+        role="checkbox"
+        type="checkbox"
+      />
+      <span>
+        Тестовое задание
+      </span>
+    </label>
+    <label
+      class="sc-gEvDqW hZyAII"
+      for="2"
+    >
+      <i
+        class="icon-check"
+      />
+      <input
+        checked=""
+        data-testid="2"
+        id="2"
+        name="2"
+        role="checkbox"
+        type="checkbox"
+      />
+      <span>
+        Прекрасный код
+      </span>
+    </label>
+    <label
+      class="sc-gEvDqW hZyAII"
+      for="3"
+    >
+      <i
+        class="icon-check"
+      />
+      <input
+        checked=""
+        data-testid="3"
+        id="3"
+        name="3"
+        role="checkbox"
+        type="checkbox"
+      />
+      <span>
+        Отличная компания
+      </span>
+    </label>
+    <div
+      class="sc-eqUzNf kCOKCG"
+    >
+      <div>
+        1
+         items left
+      </div>
+      <div>
+        <label
+          class="sc-dcJtft jzwPBj"
+          for="all"
+        >
+          <input
+            checked=""
+            data-testid="filter-all"
+            id="all"
+            name="filter"
+            type="radio"
+          />
+          All
+        </label>
+        <label
+          class="sc-dcJtft jzwPBj"
+          for="active"
+        >
+          <input
+            data-testid="filter-active"
+            id="active"
+            name="filter"
+            type="radio"
+          />
+          Active
+        </label>
+        <label
+          class="sc-dcJtft jzwPBj"
+          for="completed"
+        >
+          <input
+            data-testid="filter-completed"
+            id="completed"
+            name="filter"
+            type="radio"
+          />
+          Completed
+        </label>
+      </div>
+      <div
+        class="sc-fqkwJk bViZRM"
+      >
+        <i
+          class="icon-refresh"
+        />
+        Clear completed
+      </div>
+    </div>
+  </div>
+</div>
+`;

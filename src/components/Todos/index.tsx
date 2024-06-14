@@ -70,7 +70,7 @@ export const Todos = () => {
 	return (
 		<TodoWrapper>
 			<i className="icon-angle-down" />
-			<input ref={inputRef} type="text" placeholder="What needs to be done?" onKeyUp={addTodo} />
+			<input ref={inputRef} type="text" placeholder="What needs to be done?" onKeyUp={addTodo} data-testid="main-input" />
 
 			{filteredTodos.length ? (
 				filteredTodos.map((todo) => <Todo key={todo.id} {...todo} onChange={() => checkTodo(todo.id)} />)

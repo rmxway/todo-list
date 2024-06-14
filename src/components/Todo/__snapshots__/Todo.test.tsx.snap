@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Todo Render is fine 1`] = `
+<div>
+  <label
+    class="sc-aYaIB RffHk"
+    for="1"
+  >
+    <i
+      class="icon-check"
+    />
+    <input
+      checked=""
+      data-testid="1"
+      id="1"
+      name="1"
+      role="checkbox"
+      type="checkbox"
+    />
+    <span>
+      Issue #1
+    </span>
+  </label>
+</div>
+`;

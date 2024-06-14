@@ -10,5 +10,10 @@ export const todos: TodoProps[] = [
 		id: 2,
 		message: 'Прекрасный код',
 		completed: true
+	},
+    {
+		id: 3,
+		message: 'Отличная компания',
+		completed: true
 	}
 ];
